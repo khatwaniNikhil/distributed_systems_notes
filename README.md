@@ -1,1 +1,2 @@
-# distributed_systems_notes
+# References
+https://martinfowler.com/articles/patterns-of-distributed-systems/#ProcessPauses
