@@ -1,7 +1,7 @@
 # References
 https://martinfowler.com/articles/patterns-of-distributed-systems
 
-# Scenario: Process crash - How to handle data durability considering applying every change via disk IO is expensive in terms of application throughput
+# Scenario: Process crash - How to handle operation atomicity as well as data durability considering (applying every change via disk IO is expensive in terms of application throughput and inmemory data structures are lost during crash)
 ## Solution: Extra step of capture change log via append only writeahead log to disk(WAL)
 Examples: 
 	1) Kafka storage impl
